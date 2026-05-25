@@ -1,0 +1,19 @@
+.app-preview-page .hero-visual {
+  align-content: center;
+}
+
+.app-preview-page .app-mockup {
+  background:
+    linear-gradient(180deg, rgba(122, 212, 159, 0.08), rgba(255, 255, 255, 0.035)),
+    rgba(255, 255, 255, 0.04);
+}
+
+.app-preview-page .plant-card {
+  max-width: 360px;
+}
+
+@media (max-width: 768px) {
+  .app-preview-page .hero-visual {
+    gap: 2rem;
+  }
+}
